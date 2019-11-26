@@ -38,16 +38,16 @@ microk8s.kubectl proxy --accept-hosts=.* --address=0.0.0.0
 
 You can then access the Dashboard at the address
 
-[http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/]()
+[http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/]
 
 ![IMAGE of Dashboard](https://assets.ubuntu.com/v1/c9cec03a-ubuntu18.04-microk8s+on+QEMU-KVM_007.png)
 
-[upstream-dashboard]: https://github.com/kubernetes/dashboard/wiki/Creating-sample-user
+[upstream-dashboard]: https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md 
 <!-- FEEDBACK -->
 <div class="p-notification--information">
   <p class="p-notification__response">
     We appreciate your feedback on the docs. You can 
-    <a href="https://https://github.com/canonical-web-and-design/microk8s.io/edit/master/docs/addon-dashboard.md" class="p-notification__action">edit this page</a> 
+    <a href="https://github.com/canonical-web-and-design/microk8s.io/edit/master/docs/addon-dashboard.md" class="p-notification__action">edit this page</a> 
     or 
     <a href="https://github.com/canonical-web-and-design/microk8s.io/issues/new" class="p-notification__action">file a bug here</a>.
   </p>
